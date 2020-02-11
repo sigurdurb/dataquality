@@ -1,2 +1,45 @@
 *.class
 *.log
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/
+target/
+build/
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+out
+.cache/
+.history/
+.lib/
+dist/*
+libexec/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+logs/
+project/*-shim.sbt
+project/project/
+project/target/
